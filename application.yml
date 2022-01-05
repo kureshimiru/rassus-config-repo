@@ -5,7 +5,8 @@ spring:
     config:
       server:
         git:
-          uri: file:///opt/config
+          default-label: main
+          uri: file:///C:/Users/Kresimir/eclipse-workspace/configrepo
 eureka:
   client:
     service-url:
